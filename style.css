@@ -4,6 +4,7 @@ body{
     background-color: #777;
     width: 960px;
     font-size: 18px;
+    position: relative;
 }
 
 header{
@@ -58,6 +59,15 @@ header{
     background-color: #ebebeb;
     text-align: center;
     width: 480px;
-    padding: 17px;
+    padding: 13px;
+    margin: auto;
+    top: 20px;
+}
+
+.footer{
+    background-color: #ebebeb;
+    text-align: center;
+    width: 960px;
+    padding: 35px;
     margin: 10px auto;
 }
