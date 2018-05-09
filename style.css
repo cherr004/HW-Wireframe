@@ -4,7 +4,6 @@ body{
     background-color: #777;
     width: 960px;
     font-size: 18px;
-    position: relative;
 }
 
 header{
@@ -27,14 +26,16 @@ header{
     float: left;
     background-color: #ebebeb;
     text-align: center;
-    width: 480px;
+    width: 495px;
     padding: 17px;
     margin: 10px auto;
+    overflow: hidden;
+    display: block;
 }
 
 .article{
     background-color: #777;
-    color: #ebebeb
+    color: #ebebeb;
     text-align: center;
     padding: 13px;
     margin: 10px auto;
@@ -58,16 +59,19 @@ header{
     float: right;
     background-color: #ebebeb;
     text-align: center;
-    width: 480px;
-    padding: 13px;
-    margin: auto;
-    top: 20px;
+    width: 40%;
+    height: 252px;
+    padding: 15px;
+    margin: 10px auto;
+    overflow: hidden;
+    display: block;
 }
 
-.footer{
+footer{
     background-color: #ebebeb;
     text-align: center;
     width: 960px;
     padding: 35px;
     margin: 10px auto;
+    display: inline-block
 }
