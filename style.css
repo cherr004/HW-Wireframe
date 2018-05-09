@@ -4,12 +4,12 @@ body{
     background-color: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto
 }
 
 header{
     background-color: #ebebeb;
     text-align: center;
-    width: 960px;
     padding: 35px;
     margin: 10px auto;
 }
@@ -17,7 +17,6 @@ header{
 .nav{
     background-color: #ebebeb;
     text-align: center;
-    width: 960px;
     padding: 35px;
     margin: 10px auto;
 }
@@ -70,8 +69,8 @@ header{
 footer{
     background-color: #ebebeb;
     text-align: center;
-    width: 960px;
     padding: 35px;
     margin: 10px auto;
-    display: inline-block
+    width: 100%;
+    display: inline-block;
 }
